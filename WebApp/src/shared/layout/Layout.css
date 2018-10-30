@@ -1,0 +1,1489 @@
+@font-face {
+  font-family: Metropolis300;
+  src: url(/fonts/fonts/metropolis/Metropolis-Light.otf);
+}
+@font-face {
+  font-family: Metropolis;
+  src: url(/fonts/fonts/metropolis/Metropolis-Regular.otf);
+}
+@font-face {
+  font-family: Metropolis500;
+  src: url(/fonts/fonts/metropolis/Metropolis-Medium.otf);
+}
+@font-face {
+  font-family: Metropolis600;
+  src: url(/fonts/fonts/metropolis/Metropolis-SemiBold.otf);
+}
+@font-face {
+  font-family: Metropolis700;
+  src: url(/fonts/fonts/metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+  font-family: Metropolis800;
+  src: url(/fonts/fonts/metropolis/Metropolis-ExtraBold.otf);
+}
+@font-face {
+  font-family: Metropolis900;
+  src: url(/fonts/fonts/metropolis/Metropolis-Black.otf);
+}
+.dash-danger-text {
+  color: #FC564E;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.wide-button {
+  display: block;
+  width: 100%;
+}
+.font-weight--500 {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+.display-inline-block {
+  display: inline-block;
+}
+.text-display--block {
+  display: block;
+}
+.padding-horizontal--40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.padding-horizontal--20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.padding-horizontal--16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.padding-horizontal--12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.padding-horizontal--8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.padding-horizontal--4 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.padding-vertical--20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.padding-vertical--16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.padding-vertical--12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.padding-vertical--8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.padding-vertical--4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.padding-top--20 {
+  padding-top: 20px;
+}
+.padding-top--16 {
+  padding-top: 16px;
+}
+.padding-top--12 {
+  padding-top: 12px;
+}
+.padding-top--8 {
+  padding-top: 8px;
+}
+.padding-top--4 {
+  padding-top: 4px;
+}
+.padding-bottom--20 {
+  padding-bottom: 20px;
+}
+.padding-bottom--16 {
+  padding-bottom: 16px;
+}
+.padding-bottom--12 {
+  padding-bottom: 12px;
+}
+.padding-bottom--8 {
+  padding-bottom: 8px;
+}
+.padding-bottom--4 {
+  padding-bottom: 4px;
+}
+.padding-right--20 {
+  padding-right: 20px;
+}
+.padding-right--16 {
+  padding-right: 16px;
+}
+.padding-right--12 {
+  padding-right: 12px;
+}
+.padding-right--8 {
+  padding-right: 8px;
+}
+.padding-right--4 {
+  padding-right: 4px;
+}
+.margin-horizontal--40 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.margin-horizontal--20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.margin-horizontal--16 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.margin-horizontal--12 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.margin-horizontal--8 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.margin-horizontal--4 {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.margin-top--20 {
+  margin-top: 20px;
+}
+.margin-top--16 {
+  margin-top: 16px;
+}
+.margin-top--12 {
+  margin-top: 12px;
+}
+.margin-top--8 {
+  margin-top: 8px;
+}
+.margin-top--4 {
+  margin-top: 4px;
+}
+.margin-bottom--20 {
+  margin-bottom: 20px;
+}
+.margin-bottom--16 {
+  margin-bottom: 16px;
+}
+.margin-bottom--12 {
+  margin-bottom: 12px;
+}
+.margin-bottom--8 {
+  margin-bottom: 8px;
+}
+.margin-bottom--4 {
+  margin-bottom: 4px;
+}
+.margin-left--20 {
+  margin-left: 20px;
+}
+.margin-left--16 {
+  margin-left: 16px;
+}
+.margin-left--12 {
+  margin-left: 12px;
+}
+.margin-left--8 {
+  margin-left: 8px;
+}
+.margin-left--4 {
+  margin-left: 4px;
+}
+.margin-right--20 {
+  margin-right: 20px;
+}
+.margin-right--16 {
+  margin-right: 16px;
+}
+.margin-right--12 {
+  margin-right: 12px;
+}
+.margin-right--8 {
+  margin-right: 8px;
+}
+.margin-right--4 {
+  margin-right: 4px;
+}
+/*
+**
+** LAYOUT DASH
+**
+*/
+.dash-layout {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  min-height: 100vh;
+  padding-bottom: 60px;
+}
+.dash-link {
+  text-decoration: none;
+}
+.dash-link:hover {
+  text-decoration: none;
+}
+@media (min-width: 1200px) {
+  .dash-container {
+    padding: 0 44px;
+  }
+}
+/*
+**
+** DASHBOARD NAVBAR
+**
+*/
+.dash-navbar {
+  padding: 8px 0 20px 0;
+  margin: 0;
+}
+@media (min-width: 992px) {
+  .dash-navbar {
+    height: 68px;
+    padding: 0;
+  }
+}
+.dash-navbar--small-screen {
+  padding: 0;
+  height: 10px;
+  margin-bottom: 16px;
+  margin-left: -6px;
+}
+@media (min-width: 992px) {
+  .dash-navbar--small-screen {
+    display: none;
+  }
+}
+.dash-logo {
+  margin-left: -8px;
+  margin-right: 24px;
+}
+.dash-logo .dash-logo-icon {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 15px;
+  background: #fff;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 14px;
+  box-shadow: 0 2px 5px 0 rgba(49, 49, 93, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.08s ease-in;
+}
+.dash-logo .dash-logo-icon:hover {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.12), 0 3px 9px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.dash-logo .dash-logo-icon:active {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.08), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06), 0 0 0 0 transparent;
+}
+.dash-logo .dash-logo-icon:focus {
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.dash-logo .dash-logo-icon .briefcase-icon {
+  position: relative;
+  top: 1px;
+}
+.dash-logo .dash-logo-text {
+  font-size: 16px;
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  margin-right: 4px;
+}
+.dash-logo .dash-logo-dropdown-icon {
+  font-size: 10px;
+  position: relative;
+  top: -2px;
+}
+.dash-nav-link {
+  position: relative;
+  top: 4px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.dash-nav-link:nth-child(1) {
+  margin-left: 0;
+}
+@media (min-width: 576px) {
+  .dash-nav-link {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+  .dash-nav-link:nth-child(1) {
+    margin-left: 0;
+  }
+}
+.dash-nav-link-active,
+.dash-sidebar-link-active {
+  font-family: Metropolis600, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dash-dropdown-icon {
+  margin: 0 -4px;
+  padding: 0;
+}
+.dash-dropdown-icon:nth-child(1) {
+  margin-right: -8px;
+}
+.dash-dropdown-icon:nth-child(3) {
+  margin-right: -8px;
+}
+.dash-nav-icon {
+  border-radius: 14px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 17px;
+}
+.activate-circle-notification {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #FC9F4E;
+  display: inline-block;
+  position: absolute;
+}
+.dropdown-menu {
+  box-shadow: 0 0 0 1px rgba(136, 152, 170, 0.1), 0 15px 35px 0 rgba(49, 49, 93, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background: #fff;
+  border: 0;
+}
+.dropdown-item {
+  padding: 4px 4px;
+  min-width: 225px;
+}
+.dropdown-item:hover {
+  background: #E6E6F2;
+}
+.dash-header-dropdown-text {
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  color: #66B7FF;
+  padding: 4px 0;
+}
+.dash-header-dropdown-text:hover {
+  color: #38315B;
+}
+.dash-dropdown-header-header {
+  padding: 4px 12px;
+}
+.dash-dropdown-header-header:hover {
+  background: #fff;
+}
+.dash-dropdown-header-header small {
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: #ABAAC4;
+}
+.dash-header-dropdown-header-text {
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  color: #54527F;
+  padding: 2px 0;
+}
+.dash-header-dropdown-header-text:hover {
+  color: #54527F;
+}
+/*
+**
+** DASHBOARD SIDEBAR
+**
+*/
+.dash-sidebar-col {
+  padding-right: 0;
+  display: none;
+}
+@media (min-width: 992px) {
+  .dash-sidebar-col {
+    display: block;
+  }
+}
+.dash-sidebar {
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 1040px) {
+  .dash-sidebar {
+    padding-left: 8px;
+  }
+}
+.dash-sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dash-sidebar-link {
+  margin: 0 0 8px 0;
+  padding: 0;
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+.dash-sidebar-link-active {
+  font-family: Metropolis600, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dash-sidebar-nav-icon {
+  display: inline-block;
+  margin-right: 16px;
+  width: 10px;
+}
+/*
+**
+** DASHBOARD SMALL COMPONENTS
+**
+*/
+/*
+* Dashboard Profile Icon
+*/
+.profile-icon {
+  display: inline-block;
+  box-shadow: 0 2px 5px 0 rgba(49, 49, 93, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.profile-icon--link {
+  display: block;
+  box-shadow: 0 2px 5px 0 rgba(49, 49, 93, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.08s ease-in;
+}
+.profile-icon--link:hover {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.12), 0 3px 9px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.profile-icon--link:active {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.08), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06), 0 0 0 0 transparent;
+}
+.profile-icon--link:focus {
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.profile-icon--small {
+  border-radius: 14px;
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  line-height: 28px;
+  font-size: 17px;
+}
+.profile-icon-image {
+  position: relative;
+  top: -2px;
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  line-height: 32px;
+  font-size: 16px;
+}
+/*
+* Dashboard Buttons
+*/
+.dash-btn {
+  padding: 4px 8px;
+  background: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  font-size: 13px;
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  border: none;
+}
+.dash-btn:hover {
+  background: #FFF;
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 3px 9px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  opacity: .99;
+  border: 0;
+}
+.dash-btn:active {
+  background: #FFF;
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.08), 0 2px 5px 0 rgba(50, 50, 93, 0.06), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.dash-btn:focus {
+  background: #FFF;
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  outline: none !important;
+  border: 0 !important;
+}
+.dash-btn--large {
+  padding: 4px 12px;
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.dash-btn-icon {
+  position: relative;
+  top: -0.5px;
+  margin-right: 4px;
+  font-size: 11px;
+}
+.dash-btn-danger {
+  color: #FC564E !important;
+  background: #FFF !important;
+}
+.dash-btn-danger:hover,
+.dash-btn-danger:focus,
+.dash-btn-danger:active {
+  color: #FC564E !important;
+  background: #FFF !important;
+}
+.dash-btn-success {
+  color: #29CE8C !important;
+  background: #FFF !important;
+}
+.dash-btn-success:hover,
+.dash-btn-success:focus,
+.dash-btn-success:active {
+  color: #29CE8C !important;
+  background: #FFF !important;
+}
+.dash-btn-danger-fill {
+  color: #FFF !important;
+  background: #FC564E !important;
+}
+.dash-btn-danger-fill:hover,
+.dash-btn-danger-fill:focus,
+.dash-btn-danger-fill:active {
+  color: #FFF !important;
+  background: #FC564E !important;
+}
+.dash-btn-success-fill {
+  color: #FFF !important;
+  background: #29CE8C !important;
+}
+.dash-btn-success-fill:hover,
+.dash-btn-success-fill:focus,
+.dash-btn-success-fill:active {
+  color: #FFF !important;
+  background: #29CE8C !important;
+}
+/*
+* Dashboard Form Elements
+*/
+.dash-form-label {
+  font-size: 13px;
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.dash-form-element {
+  border-radius: 4px !important;
+  background: #fff !important;
+  border: 0 !important;
+  padding: 6px 8px 4px 8px;
+  height: 28px;
+  font-size: 13px !important;
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  line-height: 28px !important;
+}
+.dash-form-element--normal {
+  margin: 8px 0;
+  width: 250px;
+}
+.dash-form-element--large {
+  max-width: 550px;
+}
+.dash-select {
+  border-radius: 4px !important;
+  background: #fff !important;
+  border: 0 !important;
+  color: #54527F !important;
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08) !important;
+  margin: 0 !important;
+  min-width: 250px !important;
+  min-height: 28px !important;
+  display: block;
+}
+.dash-select:focus {
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08) !important;
+  outline: none !important;
+}
+.dash-select:active {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.08), 0 2px 5px 0 rgba(50, 50, 93, 0.06), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+}
+.dash-select:focus {
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08) !important;
+}
+.dash-select-card {
+  width: 250px;
+  display: block;
+}
+.dash-input {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.16), 0 1px 1px rgba(0, 0, 0, 0.08);
+  transition: all 0.08s ease-in;
+}
+.dash-input:focus {
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+.dash-textarea {
+  margin: 8px 0;
+  border-radius: 4px;
+  background: #fff;
+  border: 0;
+  padding: 4px 24px 4px 8px;
+  font-size: 13px;
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 20px;
+}
+.dash-dropdown-form {
+  min-width: 200px;
+  margin-left: 8px;
+}
+.dash-dropdown-form label {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  padding-left: 4px;
+  padding-right: 8px;
+}
+/*
+*  Card Divs
+*/
+.dash-card-body--special-warning {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid #FC9F4E;
+}
+.dash-card-body--special-warning span {
+  padding: 5px 12px;
+  margin: 0;
+  line-height: -2px;
+  background: #FC9F4E;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Metropolis", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.dash-card-body--special {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid #5B56FB;
+}
+.dash-card-body--special span {
+  padding: 5px 12px;
+  margin: 0;
+  line-height: -2px;
+  background: #5B56FB;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Metropolis", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.dash-analytics--text {
+  font-family: "Metropolis500", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+}
+.dash-card-header-text--tabs {
+  padding: 16px;
+}
+.tabs-col {
+  padding: 0;
+  margin: 0;
+}
+.tabs-item {
+  font-family: "Metropolis", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #E1E1ED;
+  border-left: 1px solid #E1E1ED;
+  color: #38315B;
+}
+.tabs-item div {
+  padding: 8px 0;
+  border-bottom: 2px solid #fff;
+}
+.tabs-item .active {
+  font-family: "Metropolis500", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-bottom: 2px solid #7066FF;
+  color: #7066FF;
+}
+.dash-card {
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  border: 0;
+}
+.dash-card-tabs {
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.dash-card-header-tabs {
+  padding: 0;
+  margin: 0;
+}
+.dash-card--normal {
+  box-shadow: 0 7px 14px 0 rgba(50, 50, 93, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+}
+.dash-card--activity {
+  height: 100%;
+}
+.dash-card--link {
+  padding: 24px 20px;
+  color: #FFF;
+  transition: all .2s ease;
+}
+.dash-card--primary {
+  background: linear-gradient(to right, #5B56FB, #21D4FD);
+}
+.dash-card--warning {
+  background: linear-gradient(to right, #F76B1C, #F9AA54);
+}
+.dash-card-header--normal {
+  padding: 16px 20px;
+  margin: 0;
+  border: none;
+}
+.card-activate-col--left {
+  margin: 0;
+  min-height: 100%;
+  margin-bottom: 12px;
+}
+.card-activate-col--right {
+  margin: 0;
+  padding-right: 0;
+  min-height: 100%;
+  margin-bottom: 12px;
+}
+.dash-card-body-profile-info {
+  position: relative;
+  top: -8px;
+}
+.dash-card-body--normal {
+  padding: 0;
+  border: 0;
+}
+.dash-card-footer--normal {
+  border: 0;
+  background: #FFF;
+  box-shadow: inset 0 1px #e6ebf1;
+}
+.dash-card-inner {
+  background: #fff;
+  padding: 40px;
+}
+.card-header-row {
+  padding: 0;
+  margin: 0;
+}
+.card-header-col {
+  padding: 0;
+  margin: 0;
+}
+.dash-internal-card-col {
+  padding-bottom: 20px;
+}
+.dash-internal-card-col a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.dash-internal-card-col .full-width-profile {
+  width: 100%;
+}
+.dash-card-internal {
+  padding: 8px 12px;
+  background: #FFF;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.dash-card-internal:hover {
+  background: #FFF;
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 3px 9px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  opacity: .99;
+}
+.dash-card-internal:active {
+  background: #FFF;
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.08), 0 2px 5px 0 rgba(50, 50, 93, 0.06), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.dash-card-internal:focus {
+  background: #FFF;
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  outline: none;
+}
+.dash-signupflow--link {
+  padding: 12px 0;
+  border-top: 1px soild rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  opacity: 1;
+}
+.dash-signupflow--link-complete {
+  opacity: .7;
+}
+.dash-signupflow--checkbox {
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #fff;
+  margin-right: 12px;
+  border-radius: 25px;
+  color: #fff;
+}
+.dash-signupflow--checkbox-complete {
+  background: #fff;
+  color: #54527F;
+  box-shadow: 0 2px 5px 0 rgba(49, 49, 93, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+/*
+*  Card Text
+*/
+.dash-card-link--header-text {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.dash-card-link--paragraph-text {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.dash-card-header-text--large {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 28px;
+  font-size: 20px;
+}
+.dash-card-header-text--large-bold {
+  font-family: Metropolis500;
+}
+.dash-card-header-text--normal {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+}
+.dash-card-header-text--block {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+}
+.dash-card-internal-header {
+  font-size: 14px;
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+}
+.dash-card-internal-header:hover {
+  text-decoration: none;
+}
+.dash-card-details-header {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1.6;
+  letter-spacing: .2px;
+}
+.dash-card-details-item {
+  font-size: 13px;
+  line-height: 22px;
+  color: #6b7c93;
+}
+.dash-card-details-item-link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 22px;
+  color: #54527f;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
+  box-shadow: 0 2px 5px 0 rgba(49, 49, 93, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  transition: all 0.08s ease-in;
+  background: #fff;
+  cursor: pointer;
+}
+.dash-card-details-item-link:hover {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.12), 0 3px 9px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.dash-card-details-item-link:active {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.08), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06), 0 0 0 0 transparent;
+}
+.dash-card-details-item-link:focus {
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.dash-card-details-item-info {
+  font-size: 13px;
+  line-height: 22px;
+  display: block;
+}
+.dash-card-body-profile-text {
+  line-height: 1.3;
+}
+.dash-signupflow--text {
+  font-size: 13px;
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+}
+.dash-signupflow--text-complete {
+  text-decoration: line-through;
+}
+/*
+*  Card Details
+*/
+.dash-card-divider-white {
+  box-shadow: inset 0 -2px #FFF;
+}
+.dash-card-remove-icon {
+  font-size: 13px;
+  font-weight: 100;
+  position: absolute;
+  left: -8px;
+  top: -8px;
+  z-index: 100;
+  background: #fff;
+  width: 16px;
+  height: 16px;
+  padding-right: 1px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(49, 49, 93, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.dash-card-remove-icon:hover {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.12), 0 3px 9px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.dash-card-remove-icon:focus {
+  box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+.dash-card-remove-icon:active {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.08), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06), 0 0 0 0 transparent;
+}
+/*
+* Undecided
+*/
+.dashboard-card {
+  background: #fff;
+  box-shadow: 0 7px 14px 0 rgba(50, 50, 93, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0 7px 14px 0 rgba(50, 50, 93, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.dashboard-card .dashboard-user {
+  position: relative;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #F0EFFE;
+}
+.dashboard-card .dashboard-user .dashboard-user-header {
+  padding: 13px 16px 11px 20px;
+  background: #fff;
+  box-shadow: inset 0 -1px #e6ebf1;
+  -webkit-box-shadow: inset 0 -1px #e6ebf1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.dashboard-card .dashboard-user .dashboard-user-header .header-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.dashboard-card .dashboard-user .dashboard-user-header .user-header-row-actions {
+  margin-top: 13px;
+}
+.dashboard-card .dashboard-all-in-one {
+  position: relative;
+  padding: 16px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.dashboard-card .dashboard-all-in-one .all-in-one-filter-header {
+  margin-bottom: 12px;
+  display: flex;
+}
+.dashboard-card .dashboard-all-in-one .all-in-one-filter-header .all-in-one-header-h5 {
+  display: inline;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dashboard-card .dashboard-all-in-one .all-in-one-filter-header .all-in-one-header-inline {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 13px;
+}
+.dashboard-card .dashboard-all-in-one .all-in-one-filter-header .all-in-one-header-input {
+  box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-width: 350px;
+  width: 300px;
+  min-width: 250px;
+  margin: 0;
+  padding: 5px 24px 5px 8px;
+  background-color: #FFF;
+  color: #22205C;
+  line-height: 20px;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+}
+.dashboard-card .dashboard-all-in-one .all-in-one-body {
+  padding-top: 12px;
+  padding-bottom: 19px;
+}
+.dashboard-card .dashboard-all-in-one .all-in-one-footer {
+  border-top: 1px solid #7571f3;
+  padding-top: 7px;
+}
+.dashboard-card .dashboard-all-in-one .all-in-one-footer .all-in-one-footer-link {
+  color: #ADEEFF;
+  font-size: 14px;
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+.dashboard-card .dashboard-all-in-one .all-in-one-footer .all-in-one-footer-link .footer-link-icon {
+  font-weight: 300;
+  font-size: 10px;
+  position: relative;
+  top: -2px;
+  padding-left: 6px;
+}
+.dashboard-card .all-in-one-filter-comp {
+  background: #5B56FB;
+  color: #fff;
+}
+.dashboard-card .dashboard-header {
+  padding: 1em 20px;
+}
+.dashboard-card .dashboard-header .dashboard-header-h5 {
+  color: #fff;
+}
+.dashboard-card .dashboard-table-header {
+  padding: 1em 20px;
+  box-shadow: inset 0 -1px #e6ebf1;
+}
+.dashboard-card .dashboard-table-body {
+  padding: 0, 20px;
+}
+.dash-modal {
+  box-shadow: 0 7px 14px 0 rgba(50, 50, 93, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+}
+.dash-modal--large {
+  max-width: 600px;
+}
+.dash-modal-header {
+  background: #fff;
+  border: 0;
+}
+.dash-modal-header-text--small {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+.dash-modal-body {
+  border: 0;
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+}
+.dash-comp-modal-body,
+.dash-comp-modal-footer {
+  background: #F9F9FF;
+}
+.dash-modal-footer {
+  border: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/*
+**
+** LAYOUT VISITORS
+**
+*/
+h1 {
+  font-family: Metropolis600, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #141414;
+}
+h6 {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+p {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #333;
+  font-size: 14px;
+}
+body {
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+.dark-text {
+  color: #FFF;
+}
+.dark-link {
+  color: #666;
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.dark-link:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+.nav-visitors {
+  height: 80px;
+  color: #141414;
+  padding-left: 0;
+  padding-right: 0;
+}
+.nav-visitors .navbar-brand {
+  padding: 0;
+  color: #141414;
+  font-family: Metropolis700, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+.nav-visitors .navbar-brand span {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+.nav-visitors .navbar-brand:hover,
+.nav-visitors .navbar-brand:focus,
+.nav-visitors .navbar-brand:active {
+  color: #757575;
+}
+.nav-visitors .nav-link {
+  color: #141414;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+  text-transform: lowercase;
+}
+.nav-visitors .nav-link:hover,
+.nav-visitors .nav-link:focus,
+.nav-visitors .nav-link:active {
+  color: #757575;
+}
+.nav-visitors .nav-link .down-chev {
+  font-size: 8px;
+  font-weight: 100;
+  position: relative;
+  bottom: 2px;
+  padding-left: 2px;
+}
+.nav-visitors .mr-auto .nav-item {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.nav-visitors .mr-auto .nav-item:nth-child(1) {
+  margin-left: 0;
+}
+.nav-visitors .ml-auto .nav-item {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.nav-visitors .ml-auto .nav-item:nth-child(3) {
+  margin-right: 0;
+  padding: 0;
+}
+.nav-visitors .ml-auto .nav-item .btn-navbar {
+  color: #fff;
+  margin-left: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero {
+  padding: 8em 0 13em 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.hero .no-padding {
+  padding: 0;
+  margin: 0;
+}
+.hero .hero-left-col {
+  padding: 0;
+  margin: 0;
+}
+.hero .signup {
+  position: relative;
+  top: 1.5rem;
+  width: 50%;
+  margin: 0 auto;
+}
+.arrow-margin {
+  position: relative;
+  top: 1px;
+  padding-left: 5px;
+}
+.visitiors-btn {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  -webkit-box-shadow: 0 15px 35px 0 rgba(42, 51, 83, 0.12), 0 5px 15px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 35px 0 rgba(42, 51, 83, 0.12), 0 5px 15px rgba(0, 0, 0, 0.06);
+  border: none;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  color: #FFF;
+  transition: all 0.2s ease-in-out;
+}
+.visitiors-btn:hover {
+  transform: translateY(-2px);
+  color: #FFF;
+  -webkit-box-shadow: 0 18px 35px 0 rgba(42, 51, 83, 0.12), 0 8px 15px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 18px 35px 0 rgba(42, 51, 83, 0.12), 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+.visitiors-btn:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+.visitiors-btn:focus {
+  -webkit-box-shadow: 0 15px 35px 0 rgba(42, 51, 83, 0.12), 0 5px 15px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 35px 0 rgba(42, 51, 83, 0.12), 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+.visitors-input,
+.visitiors-btn {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.visitors-input {
+  border: 2px solid #e6e6e6;
+  color: #767676;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.visitors-input::placeholder {
+  color: #969696;
+}
+.visitors-input:active {
+  outline: none;
+}
+.btn-cand {
+  color: #fff;
+  background: #7066FF;
+}
+.btn-cand:hover {
+  color: #fff;
+  background: #7066FF;
+}
+.btn-cand:active {
+  color: #fff;
+  background: #7066FF;
+}
+.input-cand:active,
+.input-cand:focus {
+  border-color: #7066FF;
+}
+.btn-comp {
+  background: palevioletred;
+}
+.btn-comp:hover {
+  background: palevioletred;
+}
+.btn-comp:active {
+  background: palevioletred;
+}
+.input-comp:active {
+  border-color: palevioletred;
+}
+.input-signup,
+.btn-signup {
+  height: 50px;
+}
+.input-signup {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  max-width: 350px;
+  margin-right: .25rem;
+}
+.btn-signup {
+  position: relative;
+  top: -1px;
+  margin-left: .25rem;
+}
+footer {
+  background: #141414;
+  color: #666;
+  padding: 60px 0 30px 0;
+}
+footer .logo-col .logo-footer {
+  line-height: 1rem;
+  color: #FFF;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.2rem;
+  font-family: Metropolis700, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+footer .logo-col .logo-footer span {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+footer .logo-col .logo-footer:hover {
+  color: #666;
+  text-decoration: none;
+}
+footer .footer-item {
+  font-size: 15px;
+  margin: 5px 0;
+}
+footer .copy {
+  font-size: 14px;
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #333;
+  display: block;
+  margin-top: 30px;
+}
+footer .btn-up {
+  display: inline-block;
+  background: #FFF;
+  color: #141414;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+}
+footer .btn-up .back-to-top {
+  color: #141414;
+}
+.clean-list {
+  list-style-type: none;
+  padding: 0;
+}
+.dash-comp-background {
+  background: #E6E6F2;
+}
+.dash-comp-body-text {
+  color: #38315B;
+}
+.dash-comp-card-text {
+  color: #54527F;
+}
+.dash-comp-color {
+  color: #5B56FB;
+}
+.dash-comp-link {
+  color: #66B7FF;
+  text-decoration: none;
+}
+.dash-comp-link:hover {
+  color: #38315B;
+  text-decoration: none;
+}
+.dash-comp-icon {
+  color: #ABAAC4;
+}
+.dash-comp-nav-link,
+.dash-comp-sidebar-link {
+  color: #54527F;
+}
+.dash-comp-nav-link:hover,
+.dash-comp-sidebar-link:hover,
+.dash-comp-nav-linkfocus,
+.dash-comp-sidebar-linkfocus,
+.dash-comp-nav-link:active,
+.dash-comp-sidebar-link:active {
+  color: #38315B;
+}
+.dash-comp-nav-link-active,
+.dash-comp-sidebar-link-active {
+  color: #7066FF;
+}
+.dash-comp-nav-link-active:hover,
+.dash-comp-sidebar-link-active:hover,
+.dash-comp-nav-link-activefocus,
+.dash-comp-sidebar-link-activefocus,
+.dash-comp-nav-link-active:active,
+.dash-comp-sidebar-link-active:active {
+  color: #7066FF;
+}
+.dash-comp-icon-link {
+  color: #54527F;
+}
+.dash-comp-icon-link:hover,
+.dash-comp-icon-link:active,
+.dash-comp-icon-link:focus {
+  color: #38315B;
+}
+.dash-btn-comp {
+  color: #54527F !important;
+  background: #FFF !important;
+}
+.dash-btn-comp:hover,
+.dash-btn-comp:focus,
+.dash-btn-comp:active {
+  color: #38315B !important;
+  background: #FFF !important;
+}
+.dash-btn-comp-primary {
+  background: #5B56FB;
+  box-shadow: 0 0 0 1px rgba(103, 114, 229, 0.1), 0 2px 5px 0 rgba(103, 114, 229, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 0 0 0 transparent;
+  color: #FFF;
+}
+.dash-btn-comp-primary:hover,
+.dash-btn-comp-primary:focus,
+.dash-btn-comp-primary:active {
+  color: #FFF;
+  background: #5B56FB;
+}
+.dash-comp-input {
+  color: #54527F;
+}
+.dash-comp-input:focus {
+  color: #38315B;
+}
+.dash-comp-input::placeholder {
+  color: #ABAAC4;
+}
+.dash-card-header-comp {
+  box-shadow: inset 0 -1px #E6E6F2;
+  background: #FFF;
+}
+.dash-card-header-text-comp {
+  color: #38315B;
+}
+.dash-card-body-comp {
+  background: #F9F9FF;
+  color: #54527F;
+}

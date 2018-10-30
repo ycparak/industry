@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".company.logic.SettingsFragment"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/round"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:background="@color/White" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="monospace"
+            android:text="Uncontacated"
+            android:textColor="#6200FB"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:background="@android:color/white" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:background="@android:color/white" />
+
+        <View
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="monospace"
+            android:text="Interview Extended"
+            android:textColor="#6200FB"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:background="@android:color/white" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:background="@android:color/white" />
+
+        <View
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="monospace"
+            android:text="Interviewing"
+            android:textColor="#6200FB"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:background="@android:color/white" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+
+
+
+
+
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:background="@android:color/white" />
+
+        <View
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="monospace"
+            android:text="Offer Extended"
+            android:textColor="#6200FB"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:background="@android:color/white" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:background="@android:color/white" />
+
+        <View
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="monospace"
+            android:text="Hired"
+            android:textColor="#6200FB"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:background="@android:color/white" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+
+
+
+
+
+
+
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="10dp"
+            android:background="@android:color/white" />
+
+        <View
+            android:layout_width="265dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="10dp"
+            android:background="@android:color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.button.MaterialButton
+                android:id="@+id/btnFinishPosSee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentRight="true"
+                android:text="Finish"/>
+
+
+            <ImageButton
+                android:id="@+id/btnBackPosShow"
+                android:layout_width="43dp"
+                android:layout_height="46dp"
+                android:background="@android:color/white"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/backpurple"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,49 @@
+// main: ../Layout.less, compress: false, sourceMap: false
+/*
+**
+** DASHBOARD SMALL COMPONENTS
+**
+*/
+
+/*
+* Dashboard Profile Icon
+*/
+.profile-icon {
+  display: inline-block;
+  box-shadow: 0 2px 5px 0 rgba(49,49,93,.1), 0 1px 2px 0 rgba(0,0,0,.08);
+}
+
+.profile-icon--link {
+  display: block;
+  box-shadow: 0 2px 5px 0 rgba(49,49,93,.1), 0 1px 2px 0 rgba(0,0,0,.08);
+  transition: all .08s ease-in;
+  &:hover {
+      box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.12), 0 3px 9px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.08);
+  }
+  &:active {
+      box-shadow: 0 0 0 1px rgba(50,50,93,.08), 0 2px 5px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.06), 0 0 0 0 transparent;
+  }
+  &:focus {
+      box-shadow: 0 0 0 1px rgba(50,151,211,.2), 0 0 0 2px rgba(50,151,211,.25), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+  }
+}
+
+.profile-icon--small {
+  border-radius: 14px;
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  line-height: 28px;
+  font-size: 17px;
+}
+
+.profile-icon-image {
+  position: relative;
+  top: -2px;
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  line-height: 32px;
+  font-size: 16px;
+}

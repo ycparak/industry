@@ -1,0 +1,82 @@
+// main: ../../Layout.less, compress: false, sourceMap: false
+/*
+* Dashboard Buttons
+*/
+.dash-btn {
+  padding: 4px 8px;
+  background: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+  font-size: 13px;
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  border: none;
+  &:hover {
+      background: #FFF;
+      box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.1), 0 3px 9px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.08);
+      opacity: .99;
+      border: 0;
+  }
+  &:active {
+      background: #FFF;
+      box-shadow: 0 0 0 1px rgba(50,50,93,.08), 0 2px 5px 0 rgba(50,50,93,.06), 0 1px 1.5px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.06);
+  }
+  &:focus {
+      background: #FFF;
+      box-shadow: 0 0 0 1px rgba(50,151,211,.2), 0 0 0 2px rgba(50,151,211,.25), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+      outline: none !important;
+      border: 0 !important;
+  }
+}
+
+.dash-btn--large {
+  padding: 4px 12px;
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dash-btn-icon {
+  position: relative;
+  top: -.5px;
+  margin-right: 4px;
+  font-size: 11px;
+}
+
+.dash-btn-danger {
+  color: @color-danger !important;
+  background: #FFF !important;
+  &:hover, &:focus, &:active {
+    color: @color-danger !important;
+    background: #FFF !important;
+  }
+}
+
+.dash-btn-success {
+  color: @color-success !important;
+  background: #FFF !important;
+  &:hover, &:focus, &:active {
+    color: @color-success !important;
+    background: #FFF !important;
+  }
+}
+
+.dash-btn-danger-fill {
+  color: #FFF !important;
+  background: @color-danger !important;
+  &:hover, &:focus, &:active {
+    color: #FFF !important;
+    background: @color-danger !important;
+  }
+}
+
+.dash-btn-success-fill {
+  color: #FFF !important;
+  background: @color-success !important;
+  &:hover, &:focus, &:active {
+    color: #FFF !important;
+    background: @color-success !important;
+  }
+}

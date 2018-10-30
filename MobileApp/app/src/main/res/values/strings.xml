@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">Industry14</string>
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_button_search">Query</string>
+    <string name="shr_hint_password">Password</string>
+    <string name="shr_button_next">Next</string>
+    <string name="shr_button_cancel">Cancel</string>
+    <string name="shr_error_password">Password must contain at least 8 characters.</string>
+    <string name="searchC">Search Candidate</string>
+    <string name="addP">Add Position</string>
+
+
+    <string-array name="jobs_array">
+        <item>Select Type of Dev</item>
+        <item>Full Stack Dev</item>
+        <item>Front End Dev</item>
+        <item>Back End Dev</item>
+        <item>Java Dev</item>
+        <item>Angular Dev</item>
+        <item>C# Dev</item>
+        <item>C++ Dev</item>
+        <item>Kotlin Dev</item>
+    </string-array>
+
+    <string-array name="senior_array">
+        <item>Select Role of Dev</item>
+        <item>Intern</item>
+        <item>Junior</item>
+        <item>Team Lead</item>
+        <item>Senior</item>
+        <item>Senior Direcotr</item>
+        <item>VP</item>
+        <item>Senior VP</item>
+        <item>CTO</item>
+    </string-array>
+
+    <string-array name="location_array">
+        <item>Select Location</item>
+        <item>Eastern Cape</item>
+        <item>Free State</item>
+        <item>Gauteng</item>
+        <item>KwaZulu-Natal</item>
+        <item>Limpopo</item>
+        <item>Mpumalanga</item>
+        <item>Northern Cape</item>
+        <item>North West</item>
+        <item>Western Cape</item>
+    </string-array>
+
+    <string-array name="location2_array">
+        <item>Johannesburg</item>
+        <item>Eastern Cape</item>
+        <item>Free State</item>
+        <item>Gauteng</item>
+        <item>KwaZulu-Natal</item>
+        <item>Limpopo</item>
+        <item>Mpumalanga</item>
+        <item>Northern Cape</item>
+        <item>North West</item>
+        <item>Western Cape</item>
+        <item>Johannesburg</item>
+        <item>Eastern Cape</item>
+        <item>Free State</item>
+        <item>Gauteng</item>
+        <item>KwaZulu-Natal</item>
+        <item>Limpopo</item>
+        <item>Mpumalanga</item>
+        <item>Northern Cape</item>
+        <item>North West</item>
+        <item>Western Cape</item>
+    </string-array>
+
+    <string-array name="name_array">
+        <item>Zaheer</item>
+        <item>Randell</item>
+        <item>Bianca</item>
+        <item>Keolyn</item>
+        <item>Rickasha</item>
+        <item>Prenolan</item>
+        <item>Yusuf</item>
+        <item>Kash</item>
+        <item>Moe</item>
+        <item>Yolan</item>
+        <item>Zaheer</item>
+        <item>Randell</item>
+        <item>Bianca</item>
+        <item>Keolyn</item>
+        <item>Rickasha</item>
+        <item>Prenolan</item>
+        <item>Yusuf</item>
+        <item>Kash</item>
+        <item>Moe</item>
+        <item>Yolan</item>
+    </string-array>
+
+    <string-array name="rating_array">
+        <item>90</item>
+        <item>85</item>
+        <item>83</item>
+        <item>82</item>
+        <item>74</item>
+        <item>74</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>90</item>
+        <item>85</item>
+        <item>83</item>
+        <item>82</item>
+        <item>74</item>
+        <item>74</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+    </string-array>
+
+
+    <string-array name="exp_array">
+        <item>5</item>
+        <item>2</item>
+        <item>4</item>
+        <item>10</item>
+        <item>4</item>
+        <item>7</item>
+        <item>8</item>
+        <item>2</item>
+        <item>5</item>
+        <item>9</item>
+        <item>5</item>
+        <item>2</item>
+        <item>4</item>
+        <item>10</item>
+        <item>4</item>
+        <item>7</item>
+        <item>8</item>
+        <item>2</item>
+        <item>5</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="degree_array">
+        <item>BSc Information Tehcnology</item>
+        <item>BSc Computer Science</item>
+        <item>BSc Math Science</item>
+        <item>BSc Statistics</item>
+        <item>BCom Informatics</item>
+        <item>BEng Electrical</item>
+        <item>BSc Computer Science</item>
+        <item>BSc Math Science</item>
+        <item>BSc Statistics</item>
+        <item>BSc Math Science</item>
+        <item>BSc Information Tehcnology</item>
+        <item>BSc Computer Science</item>
+        <item>BSc Math Science</item>
+        <item>BSc Statistics</item>
+        <item>BCom Informatics</item>
+        <item>BEng Electrical</item>
+        <item>BSc Computer Science</item>
+        <item>BSc Math Science</item>
+        <item>BSc Statistics</item>
+        <item>BSc Math Science</item>
+    </string-array>
+
+    <string-array name="uni_array">
+        <item>University of Johannesburg</item>
+        <item>University of Witwaterstrand</item>
+        <item>University of Pretoria</item>
+        <item>University of Cape Town</item>
+        <item>University of Durban</item>
+        <item>University of Witwaterstrant</item>
+        <item>University of Johannesburg</item>
+        <item>University of Pretoria</item>
+        <item>University of Durban</item>
+        <item>University of Cape Town</item>
+        <item>University of Johannesburg</item>
+        <item>University of Witwaterstrand</item>
+        <item>University of Pretoria</item>
+        <item>University of Cape Town</item>
+        <item>University of Durban</item>
+        <item>University of Witwaterstrant</item>
+        <item>University of Johannesburg</item>
+        <item>University of Pretoria</item>
+        <item>University of Durban</item>
+        <item>University of Cape Town</item>
+    </string-array>
+
+    <string-array name="salary_array">
+        <item>90000</item>
+        <item>25000</item>
+        <item>50000</item>
+        <item>23000</item>
+        <item>19000</item>
+        <item>100000</item>
+        <item>16000</item>
+        <item>23000</item>
+        <item>34000</item>
+        <item>5000</item>
+        <item>90000</item>
+        <item>25000</item>
+        <item>50000</item>
+        <item>23000</item>
+        <item>19000</item>
+        <item>100000</item>
+        <item>16000</item>
+        <item>23000</item>
+        <item>34000</item>
+        <item>5000</item>
+    </string-array>
+
+
+</resources>

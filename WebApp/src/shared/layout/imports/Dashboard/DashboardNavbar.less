@@ -1,0 +1,166 @@
+// main: ../../Layout.less, compress: false, sourceMap: false
+/*
+**
+** DASHBOARD NAVBAR
+**
+*/
+.dash-navbar {
+  padding: 8px 0 20px 0;
+  margin: 0;
+  @media (min-width: 992px) {
+      height: 68px;
+      padding: 0;
+  }
+}
+
+.dash-navbar--small-screen {
+  padding: 0;
+  height: 10px;
+  margin-bottom: 16px;
+  margin-left: -6px;
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+      display: none;
+  }
+}
+
+.dash-logo {
+  margin-left: -8px;
+  margin-right: 24px;
+
+  .dash-logo-icon {
+      display: inline-block;
+      margin-right: 8px;
+      font-size: 15px;
+      background: #fff;
+      width: 28px;
+      height: 28px;
+      text-align: center;
+      line-height: 28px;
+      border-radius: 14px;
+      box-shadow: 0 2px 5px 0 rgba(49,49,93,.1), 0 1px 2px 0 rgba(0,0,0,.08);
+      transition: all .08s ease-in;
+      &:hover {
+          box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.12), 0 3px 9px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.08);
+      }
+      &:active {
+          box-shadow: 0 0 0 1px rgba(50,50,93,.08), 0 2px 5px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.06), 0 0 0 0 transparent;
+      }
+      &:focus {
+          box-shadow: 0 0 0 1px rgba(50,151,211,.2), 0 0 0 2px rgba(50,151,211,.25), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+      }
+      .briefcase-icon {
+          position: relative;
+          top: 1px;
+      }
+  }
+  .dash-logo-text {
+      font-size: 16px;
+      font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+      margin-right: 4px;
+  }
+  .dash-logo-dropdown-icon {
+      font-size: 10px;
+      position: relative;
+      top: -2px;
+  }
+}
+
+.dash-nav-link {
+  position: relative;
+  top: 4px;
+  margin-right: 2px;
+  margin-left: 2px;
+  &:nth-child(1) {
+      margin-left: 0;
+  }
+  @media (min-width: 576px) {
+      margin-right: 12px;
+      margin-left: 12px;
+      &:nth-child(1) {
+          margin-left: 0;
+      }
+  }
+}
+
+.dash-nav-link-active, .dash-sidebar-link-active {
+  font-family: Metropolis600, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dash-dropdown-icon {
+  margin: 0 -4px;
+  padding: 0;
+  &:nth-child(1) {
+      margin-right: -8px;
+  }
+  &:nth-child(3) {
+      margin-right: -8px;
+  }
+}
+
+.dash-nav-icon {
+  border-radius: 14px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 17px;
+}
+
+.activate-circle-notification {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: @color-warning;
+  display: inline-block;
+  position: absolute;
+}
+
+.dropdown-menu {
+    box-shadow: 0 0 0 1px rgba(136,152,170,.1), 0 15px 35px 0 rgba(49,49,93,.1), 0 5px 15px 0 rgba(0,0,0,.08);
+    border-radius: 4px;
+    background: #fff;
+    border: 0;
+}
+
+.dropdown-item {
+    padding: 4px 4px;
+    min-width: 225px;
+    &:hover {
+        background: @color-comp-body;
+    }
+}
+
+.dash-header-dropdown-text {
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    color: @color-cand;
+    padding: 4px 0;
+    &:hover {
+        color: @color-comp-body-text;
+    }
+}
+
+.dash-dropdown-header-header {
+    padding: 4px 12px;
+    &:hover {
+        background: #fff;
+    }
+    small {
+        font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        color: @color-comp-icon;
+    }
+}
+
+.dash-header-dropdown-header-text {
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+    color: @color-comp-card-text;
+    padding: 2px 0;
+    &:hover {
+        color: @color-comp-card-text;
+    }
+}

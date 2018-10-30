@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-res"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+
+        <ImageView
+            android:id="@+id/fragmentdashboardImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            app2:srcCompat="@android:color/black"
+            tools:background="@drawable/image" />
+
+        <View
+            android:id="@+id/another"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.4"
+            android:background="@drawable/profile" />
+
+        <devs.mulham.horizontalcalendar.HorizontalCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#66000000"
+            app:textColorSelected="#ff0000" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/fragmentdashboardLinearLayout1"
+                    android:alpha="0">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        app2:srcCompat="@drawable/list_0000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/fragmentdashboardLinearLayout2"
+                    android:alpha="0">
+
+                    <ImageView
+                        android:layout_width="290dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        app2:srcCompat="@drawable/list_0001" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/fragmentdashboardLinearLayout3"
+                    android:alpha="0">
+
+                    <ImageView
+                        android:layout_width="240dp"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        app2:srcCompat="@drawable/list_0002" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/fragmentdashboardLinearLayout4"
+                    android:alpha="0">
+
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="80dp"
+                        android:background="@android:color/white"
+                        android:scaleType="fitXY"
+                        app2:srcCompat="@drawable/list_0000" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

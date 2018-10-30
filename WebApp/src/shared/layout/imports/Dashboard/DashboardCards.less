@@ -1,0 +1,528 @@
+// main: ../../Layout.less, compress: false, sourceMap: false
+/*
+*  Card Divs
+*/
+
+.dash-card-body--special-warning {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid @color-warning;
+    span {
+        padding: 5px 12px;
+        margin: 0;
+        line-height: -2px;
+        background: @color-warning;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "Metropolis", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+.dash-card-body--special {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid @color-comp-background;
+    span {
+        padding: 5px 12px;
+        margin: 0;
+        line-height: -2px;
+        background: @color-comp-background;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "Metropolis", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+
+.dash-analytics--text {
+    font-family: "Metropolis500", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+.dash-card-header-text--tabs {
+	padding: 16px;
+}
+
+.tabs-col {
+	padding: 0;
+	margin: 0;
+}
+
+.tabs-item {
+	font-family: "Metropolis", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-align: center;
+	list-style: none;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid @color-cand-card-line;
+	border-left: 1px solid @color-cand-card-line;
+	color: @color-cand-body-text;
+	div {
+		padding: 8px 0;
+		border-bottom: 2px solid #fff;
+	}
+	.active {
+		font-family: "Metropolis500", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		border-bottom: 2px solid @color-comp;
+		color: @color-comp;
+	}
+}
+
+.dash-card {
+  background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+  border: 0;
+}
+
+.dash-card-tabs {
+	background: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 12px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.dash-card-header-tabs {
+	padding: 0;
+	margin: 0;
+}
+
+.dash-card--normal {
+  box-shadow: 0 7px 14px 0 rgba(50,50,93,.1), 0 3px 6px 0 rgba(0,0,0,.07);
+}
+
+.dash-card--activity {
+  height: 100%;
+}
+
+.dash-card--link {
+	padding: 24px 20px;
+	color: #FFF;
+    transition: all .2s ease;
+}
+
+.dash-card--primary {
+    background: linear-gradient(to right, #5B56FB , #21D4FD);
+}
+
+.dash-card--warning {
+	background: linear-gradient(to right, #F76B1C , #F9AA54);
+}
+
+.dash-card-header--normal {
+  padding: 16px 20px;
+  margin: 0;
+  border: none;
+}
+
+.card-activate-col--left {
+    margin: 0;
+    min-height: 100%;
+    margin-bottom: 12px;
+}
+
+.card-activate-col--right {
+    margin: 0;
+    padding-right: 0;
+    min-height: 100%;
+    margin-bottom: 12px;
+}
+
+.dash-card-body-profile-info {
+    position: relative;
+    top: -8px;
+}
+
+.dash-card-body--normal {
+  padding: 0;
+  border: 0;
+}
+
+.dash-card-footer--normal {
+  border: 0;
+  background: #FFF;
+  box-shadow: inset 0 1px #e6ebf1;
+}
+
+.dash-card-inner {
+  background: #fff;
+  padding: 40px;
+}
+
+.card-header-row {
+  padding: 0;
+  margin: 0;
+}
+
+.card-header-col {
+  padding: 0;
+  margin: 0;
+}
+
+.dash-internal-card-col {
+  padding-bottom: 20px;
+  a {
+      &:hover {
+          color: inherit;
+          text-decoration: none;
+      }
+  }
+  .full-width-profile {
+      width: 100%;
+  }
+}
+
+.dash-card-internal {
+  padding: 8px 12px;
+  background: #FFF;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+  &:hover {
+      background: #FFF;
+      box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.1), 0 3px 9px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.08);
+      opacity: .99;
+  }
+  &:active {
+      background: #FFF;
+      box-shadow: 0 0 0 1px rgba(50,50,93,.08), 0 2px 5px 0 rgba(50,50,93,.06), 0 1px 1.5px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.06);
+  }
+  &:focus {
+      background: #FFF;
+      box-shadow: 0 0 0 1px rgba(50,151,211,.2), 0 0 0 2px rgba(50,151,211,.25), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+      outline: none;
+  }
+}
+
+.dash-signupflow--link {
+    padding: 12px 0;
+    border-top: 1px soild rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    opacity: 1;
+}
+
+.dash-signupflow--link-complete {
+    opacity: .7;
+}
+
+.dash-signupflow--checkbox {
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #fff;
+    margin-right: 12px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.dash-signupflow--checkbox-complete {
+    background: #fff;
+    color: @color-comp-card-text;
+    box-shadow: 0 2px 5px 0 rgba(49, 49, 93, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+
+/*
+*  Card Text
+*/
+.dash-card-link--header-text {
+	font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.dash-card-link--paragraph-text {
+	font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 20px;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.dash-card-header-text--large {
+  font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.dash-card-header-text--large-bold {
+  font-family: Metropolis500;
+
+}
+  
+.dash-card-header-text--normal {
+  font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+}
+  
+  .dash-card-header-text--block {
+    font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.dash-card-internal-header {
+    font-size: 14px;
+    font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.dash-card-details-header {
+    font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    letter-spacing: .2px;
+}
+
+.dash-card-details-item {
+    font-size: 13px;
+    line-height: 22px;
+    color: #6b7c93;
+}
+
+.dash-card-details-item-link {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    color: #54527f;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    box-shadow: 0 2px 5px 0 rgba(49,49,93,.1), 0 1px 2px 0 rgba(0,0,0,.08);
+    transition: all .08s ease-in;
+    background: #fff;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.12), 0 3px 9px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.08);
+    }
+    &:active {
+        box-shadow: 0 0 0 1px rgba(50,50,93,.08), 0 2px 5px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.05), 0 1px 2px 0 rgba(0,0,0,.06), 0 0 0 0 transparent;
+    }
+    &:focus {
+        box-shadow: 0 0 0 1px rgba(50,151,211,.2), 0 0 0 2px rgba(50,151,211,.25), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+    }
+}
+
+.dash-card-details-item-info {
+    font-size: 13px;
+    line-height: 22px;
+    display: block;
+}
+
+.dash-card-body-profile-text {
+    line-height: 1.3;
+}
+
+.dash-signupflow--text {
+    font-size: 13px;
+    font-family: Metropolis500, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+.dash-signupflow--text-complete {
+    text-decoration: line-through;
+}
+
+
+/*
+*  Card Details
+*/
+.dash-card-divider-white {
+    box-shadow: inset 0 -2px #FFF;
+  }
+
+.dash-card-remove-icon {
+    font-size: 13px;
+    font-weight: 100;
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    z-index: 100;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    padding-right: 1px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(49,49,93,.1), 0 1px 2px 0 rgba(0,0,0,.08);
+    cursor: pointer;
+    transition: all .2s ease;
+    &:hover {
+        box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.1), 0 2px 5px 0 rgba(50, 50, 93, 0.12), 0 3px 9px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.08), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    }
+    &:focus {
+        box-shadow: 0 0 0 1px rgba(50, 151, 211, 0.2), 0 0 0 2px rgba(50, 151, 211, 0.25), 0 2px 5px 0 rgba(50, 50, 93, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    }
+    &:active {
+        box-shadow: 0 0 0 1px rgba(50, 50, 93, 0.08), 0 2px 5px 0 rgba(50, 50, 93, 0.08), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.06), 0 0 0 0 transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* Undecided
+*/
+.dashboard-card {
+background: #fff;
+box-shadow: 0 7px 14px 0 rgba(50,50,93,.1), 0 3px 6px 0 rgba(0,0,0,.07);
+-webkit-box-shadow: 0 7px 14px 0 rgba(50,50,93,.1), 0 3px 6px 0 rgba(0,0,0,.07);
+border-radius: 4px;
+margin-bottom: 12px;
+
+.dashboard-user {
+    position: relative;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #F0EFFE;
+    .dashboard-user-header {
+        padding: 13px 16px 11px 20px;
+        background: #fff;
+        box-shadow: inset 0 -1px #e6ebf1;
+        -webkit-box-shadow: inset 0 -1px #e6ebf1;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        .header-row {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        .user-header-row-actions {
+            margin-top: 13px;
+        }
+    }
+}
+
+.dashboard-all-in-one {
+    position: relative;
+    padding: 16px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    .all-in-one-filter-header {
+        margin-bottom: 12px;
+        display: flex;
+        .all-in-one-header-h5 {
+            display: inline;
+            font-size: 18px;
+            line-height: 28px;
+            font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .all-in-one-header-inline {
+            display: flex;
+            position: absolute;
+            right: 20px;
+            top: 13px;
+        }
+        .all-in-one-header-input {
+            box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+            -webkit-box-shadow: 0 0 0 1px rgba(50,50,93,.1), 0 2px 5px 0 rgba(50,50,93,.08), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08);
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            min-width: 350px;
+            width: 300px;
+            min-width: 250px;
+            margin: 0;
+            padding: 5px 24px 5px 8px;
+            background-color: @visitors-color-dark-000;
+            color: #22205C;
+            line-height: 20px;
+            white-space: nowrap;
+            outline: none;
+            border: none;
+        }
+    }
+    .all-in-one-body {
+        padding-top: 12px;
+        padding-bottom: 19px;
+    }
+    .all-in-one-footer {
+        border-top: 1px solid rgb(117, 113, 243);
+        padding-top: 7px;
+        .all-in-one-footer-link {
+            color: @color-cand-background-accent;
+            font-size: 14px;
+            font-family: Metropolis300, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 300;
+            cursor: pointer;
+            .footer-link-icon {
+                font-weight: 300;
+                font-size: 10px;
+                position: relative;
+                top: -2px;
+                padding-left: 6px;
+            }
+        }
+    } 
+}
+
+.all-in-one-filter-comp {
+    background: @color-comp-background;
+    color: #fff;
+}
+
+.dashboard-header {
+    padding: 1em 20px;
+
+    .dashboard-header-h5 {
+        color: #fff;
+    }
+}
+
+.dashboard-table-header {
+    padding: 1em 20px;
+    box-shadow: inset 0 -1px #e6ebf1;
+}
+.dashboard-table-body {
+    padding: 0, 20px;
+}
+}
