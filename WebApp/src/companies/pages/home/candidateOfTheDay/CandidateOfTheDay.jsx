@@ -16,7 +16,7 @@ const mapState = (state, ownProps) => {
   let userPositions = [];
 
   if (users != null) {
-    candidate = users.filter(user => user.id === 'NWm6uw6S57hz7CnCbVoPPd3W4O82')
+    candidate = users.filter(user => user.id === 'jnZhtHDe7GMHVLtmnl5YomJgOgV2')
   }
 
   if (positions != null && user != null) {

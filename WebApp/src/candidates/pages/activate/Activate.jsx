@@ -67,7 +67,7 @@ class Activate extends Component {
           }
 
           { 
-            user.stage2 && user.stage3 && user.stage4 && user.stage5
+            user.stage2 && user.stage4 && user.stage5
               ? <ActivateForm activateAccount={activateAccount} initialValues={user} user={user} />
               : <div className="padding-bottom--12 dash-card-body-comp dash-card-divider-white">
                   <div className="padding-horizontal--20">

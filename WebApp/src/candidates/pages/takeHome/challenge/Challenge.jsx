@@ -35,9 +35,9 @@ class Challenge extends Component {
   }
 
   complete = (evt) => {
-    this.state = {
+    this.setState({
       value: evt.target.value
-    }
+    })
   }
 
   completeTask = (evt) => {
