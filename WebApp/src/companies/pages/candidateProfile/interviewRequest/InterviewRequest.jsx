@@ -62,15 +62,14 @@ class InterviewRequest extends Component {
                 { candidate && <img src={candidate.photoURL} className="profile-icon profile-icon-image" alt="Candidate profile" />}
               </div>
               <div className="display-inline-block margin-right--12">
-                { candidate && <span className="wide-button dash-card-body-profile-text font-weight--500 dash-comp-body-text">{candidate.name} {candidate.surname}</span>}
-                { candidate && <span className="wide-button dash-card-body-profile-text dash-card-body-profile-text--small">{ candidate.role }</span>}
+                { candidate && <span className="wide-button dash-card-body-profile-text dash-comp-body-text">{candidate.name} {candidate.surname}</span>}
+                { candidate && <span className="wide-button dash-card-body-profile-text font-weight--500 dash-card-body-profile-text--small">{ candidate.role }</span>}
               </div>
             </div>
           </ModalHeader>
 
           { interviewRequest && <ModalBody className="dash-modal-body dash-comp-modal-body padding-horizontal--20 padding-top--20 dash-card-divider-white">
-            <span>{interviewRequest.message}</span>
-            <Link to={`/company/positions/${interviewPosition.id}`}>View position infomation</Link>
+            <Link to={`/company/positions/${interviewPosition.id}`}><span className="dash-comp-link font-weight--500">View position infomation</span></Link>
             {/* Display all the information regarding the interview request */}
           </ModalBody> }
 

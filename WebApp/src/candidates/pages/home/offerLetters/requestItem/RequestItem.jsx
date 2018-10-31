@@ -41,8 +41,8 @@ class RequestItem extends Component {
       <React.Fragment>
         { requests && requests.map((request, index) => 
           request && request.status === 'pending' && request.stage === 'offerExtended' &&
-          <Row key={index-1} className="dash-card-request-row padding-top--16 padding-bottom--8 dash-card-divider-white">
-            { companies[index-1] && 
+          <Row key={index} className="dash-card-request-row padding-top--16 padding-bottom--8 dash-card-divider-white">
+            { companies[index] && 
               <React.Fragment>
                 <Col md="3">
                   <div>
@@ -51,7 +51,7 @@ class RequestItem extends Component {
                         <span className="profile-icon profile-icon-image dash-logo-icon dash-comp-icon-link text-center"><FontAwesome className="briefcase-icon" name="briefcase"></FontAwesome></span>                
                       </div>
                       <div className="display-inline-block margin-right--12">
-                        <span className="wide-button dash-card-body-profile-text font-weight--500 dash-comp-card-text">{companies[index-1].companyName}</span>
+                        <span className="wide-button dash-card-body-profile-text font-weight--500 dash-comp-card-text">{companies[index].companyName}</span>
                         <Link to={`/`} className="wide-button dash-card-body-profile-text dash-comp-link">View profile</Link>
                       </div>
                     </div>
@@ -66,8 +66,8 @@ class RequestItem extends Component {
 
                 <Col md="6">
                   <div className="text-right">
-                    <button className="btn dash-btn dash-btn-success-fill margin-right--4" onClick={this.handleAcceptRequest(positions[index-1].id, user.uid, me, request)}>Accept</button>                    
-                    <button className="btn dash-btn dash-btn-danger-fill margin-left--4" onClick={this.handleRejectRequest(positions[index-1].id, user.uid, me, request)}>Reject</button>                    
+                    <button className="btn dash-btn dash-btn-success-fill margin-right--4" onClick={this.handleAcceptRequest(positions[index].id, user.uid, me, request)}>Accept</button>                    
+                    <button className="btn dash-btn dash-btn-danger-fill margin-left--4" onClick={this.handleRejectRequest(positions[index].id, user.uid, me, request)}>Reject</button>                    
                   </div>
                 </Col>
 

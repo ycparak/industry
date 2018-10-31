@@ -39,10 +39,11 @@ class ApproveCandidates extends Component {
         <CardBody className="dash-card-body dash-card-body--normal dash-card-body-comp">
           <div className="padding-horizontal--20">
             { 
-              users.length !== 0 && users && 
+              users.length !== 0 ?
               users.map((user, index) => 
                 <RequestItem key={index} user={user} acceptCandidate={acceptCandidate} rejectCandidate={rejectCandidate} submitSkills={submitSkills}/> 
               )
+              : <div className="padding-vertical--16 dash-color-comp-card">No new companies to activate at this time</div>
             }
           </div>
         </CardBody>

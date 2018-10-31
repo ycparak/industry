@@ -23,6 +23,8 @@ const mapState = (state) => {
     }
   }
 
+  console.log(interviewRequests)
+
   return {
     interviewPositions: interviewPositions,
     interviewRequests: interviewRequests,

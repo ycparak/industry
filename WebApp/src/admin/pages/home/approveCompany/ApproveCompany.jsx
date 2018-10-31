@@ -38,7 +38,7 @@ class ApproveCompany extends Component {
         <CardBody className="dash-card-body dash-card-body--normal dash-card-body-comp">
           <div className="padding-horizontal--20">
             {
-              users.length !== 0 ? <RequestItem users={users} acceptUser={acceptUser} rejectUser={rejectUser} /> : <div className="padding-vertical--16 dash-color-comp-card">No new companies to activate</div> 
+              users.length !== 0 ? <RequestItem users={users} acceptUser={acceptUser} rejectUser={rejectUser} /> : <div className="padding-vertical--16 dash-color-comp-card">No new companies to activate at this time</div> 
             }
           </div>
         </CardBody>

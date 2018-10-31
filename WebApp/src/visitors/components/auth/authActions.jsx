@@ -61,7 +61,7 @@ export const registerCandidate = (user) =>
         createdAt: firestore.FieldValue.serverTimestamp(),
         stage1: true,
         stage2: false,
-        stage3: false,
+        stage3: true,
         stage4: true,
         stage5: false,
         stage6: false,
