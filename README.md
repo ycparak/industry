@@ -9,7 +9,7 @@ This was my final year university project. Here’s what I wrote as an intro to 
 To run it:
 1. Clone the repo
 2. In the root directory, from your command line, run `npm start`
-3. Go to `localhost 3000`
+3. The app should be running at `http://localhost:3000`
 
 ## Screenshots
 As you log in as a company, this is your home page.
