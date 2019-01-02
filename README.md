@@ -1,9 +1,15 @@
 # Industry14
-A marketplace connecting programmers looking for jobs with companies looking to statistically find the best ones. Built as a serverless app with React &amp; Firestore.
+A marketplace connecting programmers looking for jobs with companies looking to statistically find the best ones. Built as a serverless app with React, Redux &amp; Firestore.
 
 ## Goal
-This was my final year university project. This is what I wrote as an intro to my project:
+This was my final year university project. Here’s what I wrote as an intro to my project:
 > We help programmers find great companies to work at and help companies find great programmers. We test programmers on their actual coding ability, generating a statistical report on their strengths & weaknesses. This report helps companies quickly assess candidates on objective metrics rather than subjective resumes. Companies can contact, interview and extend offer letters to programmers all through our online platform.
+
+## Goal
+To run it:
+1. Clone the repo
+2. In the root directory, from your command line, run `npm start`
+3. Go to `localhost 3000`
 
 ## Screenshots
 As you log in as a company, this is your home page.
